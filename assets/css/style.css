@@ -20,18 +20,23 @@ grau
 #ccc
 
 */
-html {
-    font-size: 10px;
-}
+
 *{
     margin: 0;
     padding: 0;
     font-size: 10px;
     box-sizing: border-box;
 }
+
+
+/* 
+########################################
+            HEADER
+########################################
+*/
 h1 {
     font-family: 'Maven Pro', sans-serif;
-    font-size: 2em;
+    font-size: 1vw;
     width: 5%;
     padding: 0.2% 0 0 1%;
     color: #fff;
@@ -51,16 +56,15 @@ header section article {
     background-image: linear-gradient(to bottom left, #8507e1, #3dc8d5);
     color: #fff;
     padding: 1%;
-    font-size: 10px;
 }
 header section article:hover {
     background-image: linear-gradient(to bottom left,  #3dc8d5, #8507e1);
 }
 header section article h3 {
-    font-size: 8rem;
+    font-size: 5vw;
 }
-header section article p:nth-of-type(2) {
-    font-size: 2rem;
+header section article p {
+    font-size: 1.3vw;
 }
 header nav {
     font-family: 'Maven Pro', sans-serif;
@@ -76,14 +80,25 @@ header nav ul li {
 }
 header nav ul li a {
     color: #fff;
-    font-size: 3em;
+    font-size: 1.5vw;
     text-decoration: none;
     line-height: 1.5em;
     opacity: 0.5;
 }
+
 header nav ul li a:hover {
     opacity: 1;
 }
+header nav ul li a:active {
+    text-transform: uppercase;
+}
+
+
+/* 
+########################################
+            MAIN
+########################################
+*/
 main {
     width: 60%;
     margin: 0 auto;
@@ -101,11 +116,11 @@ main article:nth-of-type(1n+2) p {
     text-transform: uppercase;
 }
 h2 {
-    font-size: 8em;
+    font-size: 4.5vw;
 }
 main section article p {
     width:60%;
-    font-size: 2em;
+    font-size: 1.5vw;
     margin: 3% 0;
 }
 main article img {
